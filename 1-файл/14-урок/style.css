@@ -1,0 +1,37 @@
+.positioned {
+    background-color: aquamarine;
+    position: absolute;
+    top: 4rem;
+    /* right: 70%;
+    transform: translateX(50%); */
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* left: ; */
+}  
+.relative {
+    position: relative;
+} 
+.positioned2 {
+    position: absolute;
+    top: 2rem;
+    background-color: aquamarine;
+}
+.flexed-block {
+    position: fixed;
+    top: 5rem;
+    background-color: aquamarine;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+}
+.sticky-block {
+    position: sticky;
+    /* position: static; */
+    top: 1rem;
+    left: 0;
+    right: 0;
+    height: 2rem;
+    padding: 2rem;
+    background-color: brown;
+}

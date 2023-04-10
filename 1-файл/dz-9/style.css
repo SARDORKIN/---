@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: row wrap-reverse;
+    align-items: center; 
+    height: 36rem;
+    align-content: end;
+}
+.flex-item {
+    padding: 5rem;
+    margin: .6rem;
+    background-color: blue;
+    color: red;
+}
+.item-1 {
+    height: 5rem;
+}
+.item-2 {
+    padding-top: 4rem;
+}
+.item-3 {
+    padding-top: 10rem;
+}

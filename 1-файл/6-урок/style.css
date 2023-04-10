@@ -1,0 +1,50 @@
+h3{
+    color: brown;
+    border: 1px solid green;
+}
+.block {
+    width: 100px;
+    height: 200px;
+    background-color: aquamarine;
+}
+.text-green {
+    color: rgb(34, 25, 201);
+}
+.w-1000px {
+    width: 1000px;
+}
+#nameImput {
+    padding: lrem;
+}
+[title] {
+    background-color: cyan;
+}
+form>div [type=number] {
+    background-color: darkcyan;
+}
+/*
+*/
+.block2 {
+    /*width: 100px;
+    height: 50px; */
+    max-width: 500px;
+    min-height: 300px;
+    max-height: 400px;
+    background-color: blue;
+    margin-left: 50px;
+    margin-top: 150px; 
+    margin-right: 20px;
+    margin-bottom: 70px;
+    margin: 100px 30px 40px 50px;
+    padding: 20px 40px;
+    padding-bottom: 100px;
+}
+.block3 {
+    margin: 100px;
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid gray;
+    box-sizing: border-box;
+}

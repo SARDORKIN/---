@@ -1,0 +1,12 @@
+.transformed {
+    background-color: chartreuse;
+    padding: .5rem 1rem;
+    max-width: min-content;
+    border-radius: .5rem;
+    transition: transform 1s ease-in-out;
+    transition-timing-function: cubic-bezier(.95,.1,.33,1.29);
+    
+}
+.transformed:focus {
+    transform: translateX(40rem);
+}

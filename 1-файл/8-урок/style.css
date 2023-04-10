@@ -1,0 +1,26 @@
+.box {
+    padding: 2rem;
+    /* background-color: #238732; */
+    background-image: url(foo.png\ —\ копия.jpg);
+    background-repeat: repeat;
+    /* background-attachment: fixed; */
+    /* background-position: 50% -100px; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    border: 100px solid white;
+    background-clip: border-box;
+    background-origin: content-box;
+    background-position: 0 -200px;
+    /* background-size: 100%; */
+    /* background-size: contain; */
+    /* background-size: 100%; */
+    color: #00000055;
+}
+
+.box2 {
+    font-size: 4rem;
+    padding: 100px;
+    background: url(29.bd4e687a\ —\ копия\ \(2\).avif)no-repeat scroll left top,
+     url(29.bd4e687a\ —\ копия\ \(2\).avif)no-repeat scroll left 200px top;
+     
+}

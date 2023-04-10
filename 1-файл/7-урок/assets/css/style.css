@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    /*height:2000px*/
+    /*overflow-x: auto;*/
+}
+.block1 {
+    background-color:blue;
+    width: 95.1.1rem;
+    height: 30mm;
+    margin: 1pt;
+    padding: 1pc;
+    font-size: 2rem;
+    padding-top: .5rem;
+    margin-top: 2rem;
+    /*font-size: 20px;*/
+}
+.block2 {
+    background-color: purple;
+    width: 95.1.1srem;
+    height: 100rem;
+    margin-top: 10vmin;
+}
+.block3 {
+    background-color:green;
+    /*width: 50vmin;*/
+    width: 50%;
+    margin-top: 50vmax;
+    font-size: 150%;
+    height: 50%;
+}
+.block4 {
+   background-color: red;
+   width: 20%; 
+}

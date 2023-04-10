@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #FE9E9E;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 1343px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}

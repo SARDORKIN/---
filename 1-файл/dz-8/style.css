@@ -1,0 +1,19 @@
+.box {
+    background-image: url(ZlsVQeK8uN0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    color: black;
+    border: 100px solid black;
+}
+.box2 {
+    font-size: 4rem;
+    padding: 100px;
+    background: url(foo.png\ —\ копия.jpg) no-repeat scroll left top,
+     url(foo.png\ —\ копия.jpg)no-repeat scroll left 500px top;
+     background-size: cover;
+     border-style: dashed;
+     color: black;
+     border-top-right-radius: 100px;
+     border-top-left-radius: 100px;
+}

@@ -1,0 +1,42 @@
+.animated {
+    margin-top: 200px;
+    background-color: greenyellow;
+    width: max-content;
+    padding: 1rem;
+    transition: transform .5s ease;
+    animation: animate 1s ease 1s 2;
+    animation-duration: 2s;
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-fill-mode: both;
+    /* animation-direction: alternate-reverse; */
+    transform: translateX(200px);
+}
+@keyframes bounce {
+    form {
+        transform: translateY(0); 
+    }
+    to {
+        transform: translateY(-100px);
+    }
+    /* 100% {
+         transform: translateY(0);
+    } */
+}
+@keyframes animate {
+    0% {
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(400px);
+    }
+    100% {
+        transform: translate(0);
+    }
+    /* not working  */
+    /* 200% {
+        transform: translate(200px);
+    } */
+}
